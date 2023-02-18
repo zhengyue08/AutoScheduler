@@ -21,7 +21,7 @@ unavailable = {}
 for _, row in unavailable_df.iterrows():
     name, shift, unavailabilities = row
     unavailable[(name, shift)] = unavailabilities
-print(unavailable)
+# print(unavailable)
 
 # 分配班次
 assigned = []

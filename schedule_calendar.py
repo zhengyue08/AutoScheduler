@@ -13,7 +13,7 @@ ws.append(['星期一', '星期二', '星期三', '星期四', '星期五'])
 
 # 读取schedule
 schedule_df = pd.read_excel('schedule.xlsx')
-print(schedule_df)
+# print(schedule_df)
 
 # 转换schedule_df为schedule字典
 schedule = {'星期一 12节': []}
