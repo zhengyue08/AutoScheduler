@@ -7,6 +7,7 @@
    + [细节感受](#细节感受)
    + [总体感受](#总体感受)
    + [思考](#思考)
+   + [完整沟通过程](#完整沟通过程)
    
 ---
 <span id="概述"></span>
@@ -41,13 +42,14 @@
 + schedulev3_chatgpt.py：自动排班 (ChatGPT生成，直接运行无bug)
 + schedule_calendar.py：整理生成结果。(手工写，针对ChatGPT没有做出很好回应的问题`这个最后的排班能不能输出成Excel文档呀，就跟课程表那样`)
 + shuffle_unavailable_chatgpt.py：随机生成人员的占有时间表，以供测试 (ChatGPT生成，直接运行无bug)  
+
+
 其余：与ChatGPT交流过程中它生成的一些代码
 
 <span id="感受"></span>
 ## 感受
 (python背景：几乎小白，只知道python的语法)  
-完整沟通过程：  
-![image](https://user-images.githubusercontent.com/57664875/219872997-46b59d09-2779-4d16-ad08-a33bd940ae44.png)
+
 
 <span id="细节感受"></span>
 ### 细节感受
@@ -89,6 +91,12 @@
 2. 表达想法的能力
     只有能把自己的需求完整的表达它才能听得懂。它完成任务的优劣很大一部分取决于我们的表达是否清晰完整。相比于专业领域的超高熟练度，个人感觉想法的完整表达和基本功几乎同样重要。  
 
-
 需要进一步思考  
-**人到底比机器擅长什么**
+
+**人到底比机器擅长什么**.  
+
+---
+<span id="完整沟通过程"></span>  
+
+完整沟通过程：  
+![image](https://user-images.githubusercontent.com/57664875/219872997-46b59d09-2779-4d16-ad08-a33bd940ae44.png)
