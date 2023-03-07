@@ -1,3 +1,5 @@
+# AutoScheduler
+
 This new version in `schedule.py` was coded with copliot's help and it can meet my requirements.
 1. At least one person is on duty for each shift.
 2. Some shifts are better to have two people on duty (high priority shifts).  
