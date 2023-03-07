@@ -127,7 +127,7 @@ for _, row in unavailable_df.iterrows():
     shift = day + " " + period
     unavailable.setdefault(shift,[]).append(name)
 
-# store available periods in a dictionary: available = e.g. "星期一 12节":["郑越 Richard", "陶婧怡 Jane", "曾洁 Jasmine", "龚忠信 Alan", "高子轶 Keith", "胡倩雯 Jane", "金昕怡 Sydnie", "刘夏松 Julius", "李星星 Anna", "孙飞帅 Alvin", "吴金隆 Alex", "韦彦昊 Pine", "杨赟雪 Cathy", "张邱一果 Billy J", "朱丽叶 Juliet"]
+# store available p1eriods in a dictionary: available = e.g. "星期一 12节":["郑越 Richard", "陶婧怡 Jane", "曾洁 Jasmine", "龚忠信 Alan", "高子轶 Keith", "胡倩雯 Jane", "金昕怡 Sydnie", "刘夏松 Julius", "李星星 Anna", "孙飞帅 Alvin", "吴金隆 Alex", "韦彦昊 Pine", "杨赟雪 Cathy", "张邱一果 Billy J", "朱丽叶 Juliet"]
 for shift in unavailable:
     available[shift] = [name for name in names if name not in unavailable[shift]]
 
