@@ -19,7 +19,8 @@ shifts = [day + " " + period for day in days for period in periods]
 instructions = eval(input("请输入你想要的操作：\n0. 确认本周值班人员和人数（强烈推荐每周排班前确认）\n1. 根据available_xth.xlsx排班\n2. 添加学工助理\n3. 删除学工助理\n4. 获取未填写的available_x.xlsx\n"))
 
 if instructions == 0:
-    print(get_names(), len(get_names()))
+    print(get_names())
+    print("本周值班人员共有" + str(len(get_names())) + "人")
 elif instructions == 1:
     add_name = input("请输入学工助理的姓名和英文名（格式：小明 Xiao Ming）：")
     add_member(add_name)
