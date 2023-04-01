@@ -174,7 +174,7 @@ def generate_schedule(week, names):
 def draw_final_schedule_file(assigned_by_shift, week, person_shift_counts, names):
 
     # 创建一个Workbook对象
-    wb = openpyxl.load_workbook('temple.xlsx')
+    wb = openpyxl.load_workbook('schedule_view_temple.xlsx')
 
     # 获取活跃的工作表对象
     ws = wb.active
@@ -217,7 +217,6 @@ def draw_final_schedule_file(assigned_by_shift, week, person_shift_counts, names
 
 
 def generate_temple_available(week, names=get_names()):
-# TODO: 4th task
     workbook = openpyxl.Workbook()
 
     worksheet = workbook.active
