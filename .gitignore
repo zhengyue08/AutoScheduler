@@ -1,8 +1,8 @@
 
-*周值班表最终版.xlsx
+*周值班表最终版*
 names.csv
 available*.xlsx
-
+~available*.xlsx
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

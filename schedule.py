@@ -7,7 +7,11 @@ from schedule_function import *
 
 # unchangable values for every week and for any task
 
-days = ["星期一", "星期二", "星期三", "星期四", "星期五",]
+days = ["星期一", 
+        "星期二", 
+        "星期三", 
+        "星期四", 
+        "星期五",]
 
 periods = ["12节", "34节", "56节", "78节"]
 
@@ -16,7 +20,7 @@ shifts = [day + " " + period for day in days for period in periods]
 
 
 # Interface：Input 
-instructions = eval(input("请输入你想要的操作：\n0. 确认本周值班人员和人数（强烈推荐每周排班前确认）\n1. 根据available_xth.xlsx排班\n2. 添加学工助理\n3. 删除学工助理\n4. 获取未填写的available_x.xlsx\n"))
+instructions = eval(input("请输入你想要的操作：\n0. 确认本周值班人员和人数（强烈推荐每周排班前确认）\n1. 添加学工助理\n2. 删除学工助理\n3. 获取未填写的available_x.xlsx\n4. 根据available_xth.xlsx排班\n"))
 
 if instructions == 0:
     print(get_names())

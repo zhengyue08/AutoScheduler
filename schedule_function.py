@@ -5,7 +5,11 @@ import csv
 
 # unchangable values for every week and for any task
 
-days = ["星期一", "星期二", "星期三", "星期四", "星期五",]
+days = ["星期一", 
+        "星期二", 
+        "星期三", 
+        "星期四", 
+        "星期五",]
 
 periods = ["12节", "34节", "56节", "78节"]
 
@@ -76,7 +80,7 @@ def available_excel_to_available_dictionary(excel_name_path):
 def generate_schedule(week, names):
     # generate schedule for week
     # read unavailable excel to available dictionary
-    available = unavailable_excel_to_availabe_dictionary("available_" + str(week) + ".xlsx")
+    available = available_excel_to_available_dictionary("available_" + str(week) + ".xlsx")
     
 
     # define two lists to store the number of shifts assigned for each person and the shifts of each person
